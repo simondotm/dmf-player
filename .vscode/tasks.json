@@ -1,0 +1,20 @@
+{
+    "version": "0.1.0",
+    "command": "cmd",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "echoCommand": true,
+    "suppressTaskName": true,
+    "args": [
+        "/C"
+    ],
+    "tasks": [
+         {
+            "taskName": "Run Script",
+            "isTestCommand": true,
+            "args": [
+                "dmf-parser.py bbcapple-smspal-3_2.dmf"
+            ]
+        }
+    ]
+}
